@@ -37,6 +37,7 @@ body {
     background-color: #ffedf6;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: url(images/pink.png), auto;
 }
 
 p {
@@ -89,7 +90,7 @@ img {
     font-weight: bold; 
     padding: 8px; 
     border-radius: 5px;     
-    width: 500px; 
+    width: 300px; 
 }
 
 a:link {
@@ -113,12 +114,12 @@ img:hover {
 
 @media (max-width:1200px) {
     #container {
-        width: 800px; 
+        width: 875px; 
     }
 }
 @media (max-width:992px) {
     #container {
-        width: 100%; 
+        width: 90%; 
         margin: 0; 
         padding: 0; 
     }
@@ -130,4 +131,17 @@ img:hover {
     #sidebar {
         display: none; 
     }
+    #container {
+        display: 100%; 
+    }
 }
+@media (max-width: 500px) {
+    #sidebar {
+        display: none; 
+    }
+    #container {
+        display: 100%; 
+    }
+}
+
+
