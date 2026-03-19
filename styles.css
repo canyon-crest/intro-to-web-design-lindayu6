@@ -2,18 +2,30 @@ h1 {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
-
+    border: 4px solid #ff5b77; 
+    border-radius: 0.5cm;
+    padding: 20px; 
+    margin: 0 auto;
+}
+.clip-text {
+    background: url(images/ferris-wheel.jpg); 
+    background-size: cover;
+    background-position: center; 
+    -webkit-background-clip: background; 
+    color: black; 
+    background-color: transparent; 
+    box-sizing: border-box; 
+    flex-shrink: 0; 
 }
 
 h2 {
     color: black; 
     font-size: 25px;
+    padding: 15px; 
 }
 
 h1, h2 {
     text-align: center; 
-    border-left: double #acdcff 5px; 
-    border-right: double #acdcff 5px; 
     width: 400px; 
     margin: auto; 
 }
@@ -144,4 +156,23 @@ img:hover {
     }
 }
 
+.kid {
+    border: 2px solid #ff5b77; 
+    border-radius: 15px; 
+    width: 250px; 
+    height: 150px; 
+    margin: auto; 
+    display: block; 
+    padding: 10px; 
+    background-image: url(images/childhood-hover.png); 
+    background-size: cover; 
+    transition: background-image 0.5s ease-in-out; 
+    background-position: center; 
+    float: right; 
+    margin-left: 15px; 
+    margin-bottom: 15px; 
+}
+.kid:hover {
+    background-image: url('images/childhood-me.jpg'); 
+}
 
